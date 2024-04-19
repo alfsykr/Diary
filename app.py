@@ -1,4 +1,5 @@
 from flask import Flask, render_template, jsonify, request
+import requests
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 from datetime import datetime
